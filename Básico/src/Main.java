@@ -1,5 +1,6 @@
 import Básico.Arrays;
 import Básico.Base;
+import Básico.Tratamento;
 import Projetos.Banco;
 import Projetos.Conversor;
 import Projetos.CrudArrayList;
@@ -67,8 +68,11 @@ public class Main {
     //Arrays
 //        arrays.buscaArray();
 //        arrays.varargsIniciar(1,2,3,4,5,6,7,8,9);
-          arrays.array2D();
+//          arrays.array2D();
 
+//Try Catch
+        Tratamento tratamento = new Tratamento();
+        tratamento.iniciarTratamento();
 
 
 
