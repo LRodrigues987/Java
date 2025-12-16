@@ -1,6 +1,7 @@
-import Básico.Arrays;
-import Básico.Base;
-import Básico.Tratamento;
+import Básico.*;
+import Básico.Notificador;
+import Básico.EmailNotificador;
+import Básico.ServicoMensagem;
 import Projetos.Banco;
 import Projetos.Conversor;
 import Projetos.CrudArrayList;
@@ -15,6 +16,7 @@ public class Main {
 
 //      //Base de Java
             Base base = new Base();
+
             Arrays arrays = new Arrays();
 //            CrudArrayList crud = new CrudArrayList();
 //
@@ -71,8 +73,19 @@ public class Main {
 //          arrays.array2D();
 
 //Try Catch
-        Tratamento tratamento = new Tratamento();
-        tratamento.iniciarTratamento();
+//        Tratamento tratamento = new Tratamento();
+//        tratamento.iniciarTratamento();
+
+
+        //OOp
+
+        Notificador notif = new EmailNotificador();
+        ServicoMensagem servicoMensagem = new ServicoMensagem(notif);
+
+        servicoMensagem.notificarCliente("Joao@lol.com", "Essa é uma mesagem teste");
+
+
+
 
 
 
