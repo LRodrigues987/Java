@@ -2,10 +2,8 @@ import Básico.*;
 import Básico.Notificador;
 import Básico.EmailNotificador;
 import Básico.ServicoMensagem;
-import Projetos.Banco;
-import Projetos.Conversor;
-import Projetos.CrudArrayList;
-import Projetos.MadLibs;
+import Projetos.*;
+
 import java.util.Scanner;
 
 public class Main {
@@ -79,14 +77,23 @@ public class Main {
 
         //OOp
 
-        Notificador notif = new EmailNotificador();
-        ServicoMensagem servicoMensagem = new ServicoMensagem(notif);
+//        Notificador notif = new EmailNotificador();
+//        ServicoMensagem servicoMensagem = new ServicoMensagem(notif);
+//
+//        servicoMensagem.notificarCliente("Joao@lol.com", "Essa é uma mesagem teste");
+//
 
-        servicoMensagem.notificarCliente("Joao@lol.com", "Essa é uma mesagem teste");
+        //Lendo arquivos
 
+//        LendoArquivos lendoArquivos = new LendoArquivos();
+//
+//        lendoArquivos.iniciar();
 
+        //Music PLayer
 
+        AudioPLayer player = new AudioPLayer();
 
+        player.MusicPlayer();
 
 
 

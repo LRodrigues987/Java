@@ -1,0 +1,11 @@
+Arquivo de teste
+
+Este é um arquivo de texto simples para testes em Java.
+
+Linha 1: Lorem ipsum dolor sit amet.
+Linha 2: Java é uma linguagem orientada a objetos.
+Linha 3: BufferedReader lê arquivos linha por linha.
+Linha 4: Try-with-resources fecha o arquivo automaticamente.
+Linha 5: Fim do arquivo.
+
+Boa sorte nos testes!
